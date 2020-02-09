@@ -17,7 +17,7 @@ function sumWhile(list) {
 }
 
 function sumRecursion(list, n) {
-  if (n <= 0) {
+  if (n === 0) {
     return 0;
   }
   return (sumRecursion(list, n - 1) + list[n - 1]);
